@@ -4,7 +4,7 @@ import json
 from PyPDF2 import PdfReader
 import time
 from traceback import format_exc
-
+print("test")
 POLICY_SUMMARY_USER_PROMPT = """
 Please extract policy rules from the following policy documentation published by {country_code} (2-letter country code. EU means European Union). Each page is marked with '=== PAGE X ===':
 
