@@ -78,7 +78,7 @@ def get_combined_text(pages, max_words=2048):
 def summarize_pdfs():
     client = OpenAI(
         base_url="https://api.deepseek.com",
-        api_key=""
+        api_key="sk-bc25f2bdae0b48f080f187ae944d78ce"
     )
     
     pdf_files_map = get_policy_pdfs_map()
